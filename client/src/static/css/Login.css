@@ -1,0 +1,22 @@
+
+.signin{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 13px;
+  }
+  
+  .signin_container{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+  }
+  
+  

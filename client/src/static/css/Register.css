@@ -1,0 +1,94 @@
+
+  .signup{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 13px;
+  }
+
+  .signup_container{
+    width: 70%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+  }
+
+  .signup_form_container{
+    width: 50%;
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  
+  .signup_header{
+    font-weight: bold;
+  }
+  
+  .form_container{
+    /* padding: 1rem 0; */
+  }
+  
+  .form_field{
+    display: flex;
+    border-bottom: 2px solid rgba(163, 162, 162, 0.856);
+    /* margin: 1.3rem 0; */
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form_field label{
+    opacity: 0.7;
+  }
+  
+  .form_field input{
+    border: none !important;
+    border-style: none !important;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 0.5rem ;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  /* .form_field input::placeholder{
+    color: white;
+    opacity: 0.7;
+  } */
+  
+  .signup_logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .signup_logo img{
+    width: 20rem;
+  }
+  
+  .already-register{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5rem;
+    cursor: pointer;
+  }
+  
+  .signup_logo figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  

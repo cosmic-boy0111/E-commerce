@@ -1,0 +1,11 @@
+.mobile_header{
+    border-bottom: 1px solid rgb(210 208 208 / 71%);
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+.mobile_header h5{
+    margin: 0;
+}

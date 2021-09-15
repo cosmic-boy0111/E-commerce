@@ -1,0 +1,119 @@
+.link2{
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    background-color: #2874f0 !important;
+    /* background-color: #303030 !important; */
+
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    /* padding: .5rem 5rem !important; */
+    color: white;
+    /* z-index: 3; */
+}
+
+.ext{
+    /* padding-left: 50px; */
+}
+
+.nav_logo{
+    height: 1.5rem;
+    /* margin: 0 5rem; */
+    /* margin-left: 5rem; */
+    /* margin-left: 50px; */
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 15px;
+}
+
+.cart_logo{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.cart_size{
+    position: absolute;
+    position: relative;
+    top: 5px;
+    color: black;
+    background-color: #ff6161;
+    border-radius: 5px;
+    padding: 0 4px;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 10px;
+    top: -12px;
+    left: 19px;
+}
+
+.search_field{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%) ;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid rgba(207, 206, 206, 0.829);
+}
+
+.search_field input{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    width: 100%;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.logo_search{
+    display: flex;
+    width: 80%;
+}
+
+.bar_container{
+    background-color: white;
+    padding: 1rem 1rem;
+    color: black;
+    display: flex;
+    opacity: .9;
+    flex-direction: column;
+    box-shadow: 2px 3px 5px -1px rgb(0 0 0 / 50%);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+    
+}
+
+.search_area{
+    position: absolute;
+    left: 7rem;
+    width: 400px;
+}
+
+.extra_search{
+    opacity: .5;
+    margin: 0 .5rem;
+}
+
+.bar_container div{
+    padding: .5rem 0;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.s_name{
+    font-weight: bold;
+}

@@ -1,0 +1,133 @@
+.more_about{
+    /* border: 1px solid red; */
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: white;
+ } 
+
+.big_img_btn{
+    
+    height: 15%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big__btn{
+    border: none;
+    outline: none;
+    padding: 1.5rem 0rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+
+.big_img_container{
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+    height: 33rem;
+    /* border: 2px solid red; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .big_img_container2{
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: opacity .3s;
+    opacity: 1;
+    height: 85%;
+    border: 1px solid #f0f0f0;
+ }
+
+ .extra_div{
+     height: 100%;
+ }
+
+ .big_img_container3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+ }
+
+ .big_img_container3 img{
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .icon2{
+     margin: 1rem;
+     padding: .5rem;
+ }
+
+ .big_img_info{
+     /* border: 2px solid red; */
+     width: 65%;
+     display: flex;
+     flex-direction: column;
+     padding-left: 2rem;
+     padding-right: 4rem;
+     padding-top: 2rem ;
+ }
+
+ .big_img_name{
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ .rating img{
+     opacity: 1 !important;
+     width: 65px;
+     margin-left: 1rem;
+ }
+
+ .big_img_info h4{
+     font-weight: bolder;
+ }
+
+.bold{
+    font-weight: bold;
+}
+
+.big_img_info .offer{
+    margin-bottom: .5rem;
+    font-size: 15px;
+}
+
+.tc{
+    color: #2874f0;
+    font-weight: bold;
+    cursor: pointer;
+}
+

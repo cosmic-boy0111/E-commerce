@@ -1,0 +1,91 @@
+.side_bar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    width: 50px;
+    background-color: #303030;
+    background-color: white;
+    z-index: 20;
+    /* border-left: 2px solid #303030; */
+}
+
+
+.block_link{
+    margin: 0.7rem 0.7rem;
+}
+
+.side_link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    transition:all 1s ease-in-out .2s ;
+}
+
+.logo_name{
+    display: none;
+}
+
+
+
+
+#mySidenav .under {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    /* width: ; */
+    width: 140px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* color: white; */
+    color: black ;
+    font-weight: bold;
+    /* opacity: 0.8; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    background-color: white;
+    /* border-radius: 0 5px 5px 0; */
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    /* margin-bottom: 1rem; */
+    z-index: 10;
+  }
+  
+  #mySidenav .under:hover {
+    left: 0px;
+    /* color: rgb(4, 209, 209); */
+
+    z-index: 1000;
+  }
+  
+  #Home {
+    top: 0px;
+  }
+  
+  #Mobiles {
+    top: 50px;
+  }
+  
+  #Electronic {
+    top: 100px;
+  }
+  
+  #Appliance {
+    top: 150px;
+  }
+
+  #Men {
+    top: 200px;
+  }
+
+  #Women{
+    top: 250px;
+  }
+
+  #More{
+    top: 300px;
+  }
